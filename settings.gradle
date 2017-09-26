@@ -1,0 +1,3 @@
+include ':appone', ':leafchart', ':chartapp', ':sample-okhttp', ':okhttputils', ':appSlisewangyiyun', ':viewpager_Indicatorlibrary', ':library-hzGgrapher', ':MPChartLib', ':MPChartExample', ':TwinklingRefreshLayoutSample', ':library', ':FloatingHeaderViewSample', ':SecurityCodeDemo', ':baiduyuyintest', ':RxAndroidDemo', ':RxJavaSamples', ':RxjavaRetrofitCashDemo', ':RxJavaRetrofitFengzhuangDemo', ':ScrollDemo', ':sageupapp', ':calculator_test', ':SecurityCodeView-master'
+include ':testFragmentDemo'
+include ':baiduvoiceDemo'

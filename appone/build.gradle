@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "zz.com.test1"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+}
+repositories {
+    flatDir {
+        dirs '../libs' //this way we can find the .aar file in libs folder of project
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile files('libs/Msc.jar')
+    compile files('libs/gson-2.2.1.jar')
+    compile files('libs/jpush-android_v3.0.3.jar')
+    compile files('libs/jcore-android_v1.1.1.jar')
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.alibaba:fastjson:1.2.31'
+    compile project(path: ':library-hzGgrapher')
+    compile(name: 'volley-release', ext: 'aar')
+    //net1
+    compile 'io.reactivex:rxandroid:1.2.1'
+    //net2
+    compile 'io.reactivex:rxjava:1.1.6'
+    //net3
+    compile 'com.alibaba:fastjson:1.2.14'
+    //net4
+    compile files('libs/org.apache.http.legacy.jar')
+}

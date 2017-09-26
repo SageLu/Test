@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\sageSth\\Test\\testFragmentDemo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
+        "source": "F:\\sageSth\\Test\\testFragmentDemo\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "F:\\sageSth\\Test\\testFragmentDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\sageSth\\Test\\testFragmentDemo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\sageSth\\Test\\testFragmentDemo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sort.xml",
+        "source": "F:\\sageSth\\Test\\testFragmentDemo\\src\\main\\res\\layout\\fragment_sort.xml"
+    },
+    {
+        "merged": "F:\\sageSth\\Test\\testFragmentDemo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_2.xml",
+        "source": "F:\\sageSth\\Test\\testFragmentDemo\\src\\main\\res\\layout\\fragment_home_2.xml"
+    },
+    {
+        "merged": "F:\\sageSth\\Test\\testFragmentDemo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_person.xml",
+        "source": "F:\\sageSth\\Test\\testFragmentDemo\\src\\main\\res\\layout\\fragment_person.xml"
+    },
+    {
+        "merged": "F:\\sageSth\\Test\\testFragmentDemo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home_1.xml",
+        "source": "F:\\sageSth\\Test\\testFragmentDemo\\src\\main\\res\\layout\\fragment_home_1.xml"
+    }
+]
